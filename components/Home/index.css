@@ -1,0 +1,245 @@
+.home-page-bg {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://media2.giphy.com/media/l0K4lUxBzIOeJd1EA/giphy.gif?cid=ecf05e47bl3jddp4srsr9bwf0xebtne1g4ilaec5wnqm2ylj&rid=giphy.gif&ct=g');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    padding-bottom: 20px;
+    
+}
+
+@media (max-width:576px) {
+    .home-page-bg {
+        height: 100%;
+    }
+}
+
+.falcon-search-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 80vw;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.search-heading {
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.destination-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    align-self: center;
+    margin-top: 30px;
+    
+}
+
+@media (max-width:576px) {
+    .destination-container {
+        flex-direction: column;
+    }
+}
+.destination-cont-sub-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 20vh;
+}
+
+.destination {
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.select-dropdown {
+    height: 20px;
+    width: 100px;
+    border: 2px solid;
+}
+
+.time-token {
+    font-family: cursive;
+    font-size: 40px;
+    font-size: solid;
+    align-self: flex-end;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.vachils-container {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.vachicle {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.checkbox {
+    height: 10px;
+    width: 10px;
+    border-radius: 4px;
+}
+
+.label-for-vachile-input {
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: solid ;
+    color: white;
+}
+
+.success-response-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.success-message{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: solid;
+    color: azure;
+
+}
+
+.time {
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: solid;
+    color: azure;
+}
+
+.planet{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: solid;
+    color: azure;
+}
+
+.loader-bg {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.failure-view-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+}
+
+.reset-button {
+    margin-top: 40px;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #2f577c;
+    color: white;
+    font-size: 15px;
+}
+
+
+.failure-text{
+    font-family: roboto cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.find-falcon {
+    color: white;
+    background-color: coral;
+    border-radius: 8px;
+    border: 0px;
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fetch-fail-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.fail-heading {
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: solid;
+
+}
+
+.statrt-again-button {
+    margin-top: 20px;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: rgba(14, 14, 177, 0.486);
+}
+
+.rules-container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-self: center;
+    
+}
+
+.rule{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.rules-img {
+    height: 50vh;
+    width: 90vw;
+    align-self: center;
+}

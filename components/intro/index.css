@@ -1,0 +1,56 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.intro-bg {
+    background-image: url("https://c.tenor.com/AJBv6U1rfkQAAAAC/background-image-galaxy.gif");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-family: roboto cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #e8c441;
+    text-align: center;
+    justify-self: flex-start;
+    
+}
+
+.dynamictext {
+    margin-top: 40px;
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+
+    
+}
+
+.link {
+    text-decoration: none;
+}
+
+.play-button {
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: rgb(197, 243, 160);
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}

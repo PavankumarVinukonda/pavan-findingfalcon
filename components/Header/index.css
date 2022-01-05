@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.web-site-name-container{
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-family: Brush Script MT , cursive;
+    font-size: 32px;
+    font-weight: solid;
+    color: #a35c22;
+    
+}
+
+.thumbnails-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.thumbnails {
+    font-family:Brush Script MT , cursive ;
+    font-size: 18px;
+    font-weight: solid;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.resetButton {
+    font-family:Brush Script MT , cursive ;
+
+    font-weight: solid;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
